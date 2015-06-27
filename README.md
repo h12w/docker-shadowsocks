@@ -1,4 +1,4 @@
-Dockerfile of Shadowsocks Server
+Dockerfile of ShadowSocks Server
 ================================
 
 Usage
