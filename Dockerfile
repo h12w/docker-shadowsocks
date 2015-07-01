@@ -9,4 +9,4 @@ ADD http://dl.chenyufei.info/shadowsocks/$VER/shadowsocks-server-linux64-$VER.gz
 RUN gunzip   $BIN/ss-server.gz
 RUN chmod +x $BIN/ss-server
 
-ENTRYPOINT ["$BIN/ss-server"]
+ENTRYPOINT ["ss-server"]
